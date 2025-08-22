@@ -1,4 +1,5 @@
-print('oi') 
-def(First-one)
- First-one = "oi"
- return  First-one
+print('oi')
+
+def first_one():
+	first_one_value = "oi"
+	return first_one_value
