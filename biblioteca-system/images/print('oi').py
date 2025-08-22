@@ -1,5 +1,5 @@
 print('oi') 
 
 def First_on():
-    First-one = "oi"
-    return  First-one 
+    first_one = "oi"
+    return first_one
