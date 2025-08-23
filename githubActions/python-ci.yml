@@ -17,11 +17,21 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Set up virtual environment
+        run: python -m venv venv
+
+      - name: Activate virtual environment and install dependencies
+        run: |
+          source venv/bin/activate
+          pip install -r requirements.txt
 
       - name: Lint with flake8
-        run: pip install flake8 && flake8 .
+        run: |
+          source venv/bin/activate
+          pip install flake8
+          flake8 .
 
       - name: Run tests
-        run: pytest
+        run: |
+          source venv/bin/activate
+          pytest
