@@ -7,7 +7,7 @@ Os arquivos estão organizados em formato **Markdown (.md)** para facilitar a le
 
 ## 📂 Acessos Rápidos
 
-- [📖 Documentação de Contexto](./Documentação%20de%20contexto.md)  
+- [📖 Documentação de Contexto](.//home/andryel/Documents/Projetos/Nexus/biblioteca-system/Documentos/Documentação de contexto.md)  
 - [📑 Especificação de Projeto](./Especificação%20de%20projeto.md)  
 - [🛠️ Metodologia](./Metodologia.md)  
 - [🧪 Plano de Teste de Software](./Plano%20de%20teste%20de%20software.md)  
