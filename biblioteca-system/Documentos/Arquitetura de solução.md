@@ -126,4 +126,4 @@ Um exemplar pode estar em várias reservas,
 Uma reserva pode envolver vários exemplares,
  um exemplar_reservado pertence a uma única reserva.
 
-(Reserva 1,N — N,1 Exemplares_reservados)
+(Reserva 1,N — N,1 Exemplares_reservados)00
